@@ -1,0 +1,10 @@
+<section class="contact-page">
+  <h2>Kontaktiraj nas</h2>
+
+  <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+    <input type="text" name="name" placeholder="Vaše ime" ngModel required />
+    <input type="email" name="email" placeholder="Vaš email" ngModel required />
+    <textarea name="message" placeholder="Poruka" rows="5" ngModel required></textarea>
+    <button type="submit" [disabled]="!contactForm.valid">Pošalji</button>
+  </form>
+</section>
