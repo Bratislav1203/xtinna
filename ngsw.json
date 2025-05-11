@@ -1,0 +1,65 @@
+{
+  "configVersion": 1,
+  "timestamp": 1747001146081,
+  "index": "/xtinna/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/xtinna/index.html",
+        "/xtinna/main-ANBYF6OV.js",
+        "/xtinna/polyfills-FFHMD2TL.js",
+        "/xtinna/styles-VCI5N2SQ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/xtinna/assets/images/bela.png",
+        "/xtinna/assets/images/braon.png",
+        "/xtinna/assets/images/mbela.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/xtinna/assets/images/bela.png": "dd87d17e818529f70ce9732fa1603e12b3ed8804",
+    "/xtinna/assets/images/braon.png": "3db2c9de38aec0896abad2f8d0e36dbe4e2ecf64",
+    "/xtinna/assets/images/mbela.png": "9067fd5cf6bc050ebfbce7833066e849d4800fd3",
+    "/xtinna/index.html": "93c1fcaa2e0f74a1f8742a2965f401a44152aa05",
+    "/xtinna/main-ANBYF6OV.js": "7d36039af9225709ff00084ccf2710d02f1bacba",
+    "/xtinna/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/xtinna/styles-VCI5N2SQ.css": "21744abd8df76bd36c1a342f7aadf4a47f78ee22"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
