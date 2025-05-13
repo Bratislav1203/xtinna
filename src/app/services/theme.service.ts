@@ -1,25 +1,21 @@
-import { Injectable } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: 'root' })
 export class ThemeService {
-  private currentTheme: 'dark' | 'light' = 'dark';
+  private _theme = signal<'dark' | 'light'>('dark');
 
-  constructor() {}
+  get theme() {
+    return this._theme;
+  }
 
   setTheme(theme: 'dark' | 'light') {
-    this.currentTheme = theme;
+    this._theme.set(theme);
     document.body.className = '';
     document.body.classList.add(`theme-${theme}`);
   }
 
   toggleTheme() {
-    const nextTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
-    this.setTheme(nextTheme);
-  }
-
-  getTheme(): 'dark' | 'light' {
-    return this.currentTheme;
+    const next = this._theme() === 'dark' ? 'light' : 'dark';
+    this.setTheme(next);
   }
 }

@@ -33,6 +33,13 @@
     transform: translateY(-50%);
     padding: 0 1rem;
 
+    .overlay-content .slogan {
+      font-size: 1.2rem;
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+
     h1 {
       font-size: 3rem;
       margin-bottom: 1rem;

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, computed} from '@angular/core';
 import {ThemeService} from '../../services/theme.service';
 
 @Component({
@@ -8,9 +8,13 @@ import {ThemeService} from '../../services/theme.service';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  constructor(public themeService: ThemeService) {}
-
+  logoPath = computed(() => {
+    return this.themeService.theme() === 'dark'
+      ? 'assets/logo-white.png'
+      : 'assets/logo.png';
+  });
   menuOpen = false;
+  constructor(public themeService: ThemeService) {}
 
   toggleMenu() {
     this.menuOpen = !this.menuOpen;

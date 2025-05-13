@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   background-color: var(--bg-color);
   color: var(--text-color);
 
@@ -14,8 +14,7 @@
   }
 
   .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    width: 80px;
   }
 
   .hamburger {
@@ -85,6 +84,12 @@
 
   .nav-links {
     flex-direction: column !important;
+  }
+  .logo {
+    width: 50px !important;
+  }
+  .navbar{
+    padding: 0.5rem 2rem !important;
   }
 }
 

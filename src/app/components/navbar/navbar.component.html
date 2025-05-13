@@ -1,11 +1,9 @@
 <nav class="navbar">
   <div class="row">
-    <div class="logo">XTINNA</div>
-
+    <img class="logo" [src]="logoPath()" alt="XTINNA logo" />
     <div class="theme-toggle" (click)="themeService.toggleTheme()" title="Promeni temu">
       🌓
     </div>
-
     <div class="hamburger" (click)="toggleMenu()">
       &#9776;
     </div>
