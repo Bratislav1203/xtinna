@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747001146081,
+  "timestamp": 1747162561169,
   "index": "/xtinna/index.html",
   "assetGroups": [
     {
@@ -12,9 +12,9 @@
       },
       "urls": [
         "/xtinna/index.html",
-        "/xtinna/main-ANBYF6OV.js",
+        "/xtinna/main-WFQQ2RPE.js",
         "/xtinna/polyfills-FFHMD2TL.js",
-        "/xtinna/styles-VCI5N2SQ.css"
+        "/xtinna/styles-PJMOBTSD.css"
       ],
       "patterns": []
     },
@@ -28,7 +28,10 @@
       "urls": [
         "/xtinna/assets/images/bela.png",
         "/xtinna/assets/images/braon.png",
-        "/xtinna/assets/images/mbela.png"
+        "/xtinna/assets/images/mbela.png",
+        "/xtinna/assets/logo-white.png",
+        "/xtinna/assets/logo.png",
+        "/xtinna/assets/logobig.png"
       ],
       "patterns": []
     }
@@ -38,10 +41,13 @@
     "/xtinna/assets/images/bela.png": "dd87d17e818529f70ce9732fa1603e12b3ed8804",
     "/xtinna/assets/images/braon.png": "3db2c9de38aec0896abad2f8d0e36dbe4e2ecf64",
     "/xtinna/assets/images/mbela.png": "9067fd5cf6bc050ebfbce7833066e849d4800fd3",
-    "/xtinna/index.html": "93c1fcaa2e0f74a1f8742a2965f401a44152aa05",
-    "/xtinna/main-ANBYF6OV.js": "7d36039af9225709ff00084ccf2710d02f1bacba",
+    "/xtinna/assets/logo-white.png": "89cd3d91612096bc15b9e8ed43dc45ac3e5d1809",
+    "/xtinna/assets/logo.png": "df8b3a44d3635bac40030815e1a028083759edab",
+    "/xtinna/assets/logobig.png": "f7f17a5ebaa899137944b1fd6c893eb6e7230f41",
+    "/xtinna/index.html": "d4b421f7dfbcb02bcfdfec165e754777087d2ceb",
+    "/xtinna/main-WFQQ2RPE.js": "7e35c723bd95cb0a5c62cffef4dcc40541538904",
     "/xtinna/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/xtinna/styles-VCI5N2SQ.css": "21744abd8df76bd36c1a342f7aadf4a47f78ee22"
+    "/xtinna/styles-PJMOBTSD.css": "e1677445873c3e8e8d6c7cff7a1ef79dfc05ce65"
   },
   "navigationUrls": [
     {
