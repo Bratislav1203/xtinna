@@ -1,7 +1,10 @@
 <section class="video-hero">
-  <video autoplay loop [muted]="true" playsinline>
+  <video class="background-blur" autoplay loop muted playsinline>
     <source src="assets/videos/hero.mp4" type="video/mp4" />
-    Tvoj browser ne podržava video tag.
+  </video>
+
+  <video class="video-foreground" autoplay loop [muted]="true" playsinline>
+    <source src="assets/videos/hero.mp4" type="video/mp4" />
   </video>
 
   <div class="overlay-content">
@@ -11,6 +14,7 @@
     <button routerLink="/collections">Pogledaj kolekciju</button>
   </div>
 </section>
+
 <section class="featured-blocks">
   <div class="block">
     <h3>Kolekcija Proleće</h3>
@@ -28,6 +32,7 @@
     <a routerLink="/contact">Kontaktiraj nas</a>
   </div>
 </section>
+
 <section class="collection-gallery">
   <div class="gallery-item">
     <img src="assets/images/bela.png" alt="Bela kolekcija" />
