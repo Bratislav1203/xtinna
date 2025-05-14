@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747210399565,
+  "timestamp": 1747211523612,
   "index": "/xtinna/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/xtinna/index.html",
-        "/xtinna/main-CLNPAQPO.js",
+        "/xtinna/main-VS4BY47K.js",
         "/xtinna/polyfills-FFHMD2TL.js",
         "/xtinna/styles-PJMOBTSD.css"
       ],
@@ -44,8 +44,8 @@
     "/xtinna/assets/logo-white.png": "89cd3d91612096bc15b9e8ed43dc45ac3e5d1809",
     "/xtinna/assets/logo.png": "df8b3a44d3635bac40030815e1a028083759edab",
     "/xtinna/assets/logobig.png": "f7f17a5ebaa899137944b1fd6c893eb6e7230f41",
-    "/xtinna/index.html": "797285c634e611af6c4d3e0852e7db6264c6d1cf",
-    "/xtinna/main-CLNPAQPO.js": "d17cfc9f49143900cf1db37dd998d3823b20c9cc",
+    "/xtinna/index.html": "1188894b4a734de312baef300305d23538115db6",
+    "/xtinna/main-VS4BY47K.js": "4a9182c581b453bb5985ad2659b9b931cd3b05df",
     "/xtinna/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/xtinna/styles-PJMOBTSD.css": "e1677445873c3e8e8d6c7cff7a1ef79dfc05ce65"
   },
